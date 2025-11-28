@@ -1,0 +1,5 @@
+/home/stumpcore/dev/rptu/fineng-rs/target/debug/build/proc-macro2-98983d60e2c62fcf/build_script_build-98983d60e2c62fcf.d: /home/stumpcore/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.103/build.rs
+
+/home/stumpcore/dev/rptu/fineng-rs/target/debug/build/proc-macro2-98983d60e2c62fcf/build_script_build-98983d60e2c62fcf: /home/stumpcore/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.103/build.rs
+
+/home/stumpcore/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.103/build.rs:
