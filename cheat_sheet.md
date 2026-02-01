@@ -116,14 +116,12 @@ U = Universal Set
 
 
 ### Proof
-| #      | Logical Statement                                                                              | Purpose                                |
-| ------ | ---------------------------------------------------------------------------------------------- | -------------------------------------- |
-| **P1** | Let $  A_0 := \emptyset  $                                                                     | Establish a base case                  |
-| **P2** | For disjoint sets: $  P\left(\bigcup_{i=1}^{\infty} B_i\right) = \sum_{i=1}^{\infty} P(B_i)  $ | Invoke σ-additivity (axiom)            |
-| **P3** | Define: $  B_k := A_k \backslash A_{k-1}  $ for each $  k  $                                   | Decompose $  A  $ into disjoint pieces |
-| **P4** | Verify: The sets $  \{B_k\}_{k \in \mathbb{N}}  $ are pairwise disjoint                        | Required for σ-additivity to apply     |
-| **P5** | Show: $  \bigcup_{k=1}^{\infty} B_k = A  $                                                     | Relate pieces back to target           |
-| **P6** | Apply σ-additivity: $  P(A) = \sum_{k=1}^{\infty} P(A_k \backslash A_{k-1})  $                 | Get telescoping sum                    |
-| **P7** | Recognize: $  \sum_{k=1}^{n} P(A_k \backslash A_{k-1}) = P(A_n)  $                             | Partial sums are probabilities         |
-| **P8** | Take limit: $  \lim_{n \to \infty} P(A_n) = P(A)  $                                            | Conclude                               |
+Let $  A_0 := \emptyset  $                                                                     
+For disjoint sets: $  P\left(\bigcup_{i=1}^{\infty} B_i\right) = \sum_{i=1}^{\infty} P(B_i)  $ 
+Define: $  B_k := A_k \backslash A_{k-1}  $ for each $  k  $                                   
+Verify: The sets $  \{B_k\}_{k \in \mathbb{N}}  $ are pairwise disjoint                        
+Show: $  \bigcup_{k=1}^{\infty} B_k = A  $                                                     
+Apply σ-additivity: $  P(A) = \sum_{k=1}^{\infty} P(A_k \backslash A_{k-1})  $                 
+Recognize: $  \sum_{k=1}^{n} P(A_k \backslash A_{k-1}) = P(A_n)  $                             
+Take limit: $  \lim_{n \to \infty} P(A_n) = P(A)  $                                            
 
